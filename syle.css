@@ -1,0 +1,52 @@
+/* Reset dan variabel warna */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --bg-main: #0a1f44;
+  --text-light: #fff;
+  --text-dark: #1e2432;
+  --highlight: #ff8c00;
+}
+
+/* Body dan font */
+body {
+  font-family: 'Roboto', sans-serif;
+  background: var(--bg-main);
+  color: var(--text-dark);
+  padding: 50px;
+}
+
+/* Header */
+header {
+  text-align: center;
+  color: var(--text-light);
+}
+header h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+header p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+/* Section umum */
+section {
+  margin: 40px 0;
+  color: var(--text-light);
+}
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  font-size: 1rem;
+  color: var(--text-light);
+  margin-top: 40px;
+}
